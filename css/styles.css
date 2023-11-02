@@ -1,0 +1,320 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*! Header  */
+header {
+    width: 1513px;
+    height: 150px;
+    flex-shrink: 0;
+    display: flex;
+    text-decoration: none;
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    background-image: url("../img/background_header-and-footer.png");
+  }
+  .header-logo {
+    width: 186px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+  .header-block-logo {
+    margin-bottom: 204px;
+    margin-bottom: 39px;
+    margin-top: 39px;
+    margin-right: 168px;
+  }
+  .header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.header-list {
+    text-decoration: none;
+    display: flex;
+   margin-right: 212px;
+}
+.header-item {
+margin-right: 38px;
+margin-top: 63px;
+margin-bottom: 63px;
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.header-item:hover {
+  transition: all 0.3s ease 0s;
+    color: #94CFFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header-info-list {
+    display: flex;
+    gap: 10px;
+  } 
+
+  .header-item {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+.header-login {
+  background-image: url('../img/header-login.png');
+  width: 141px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #26C6EA;
+text-align: justify;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+  a.header-ua {
+color: #FFF;
+text-align: center;
+font-family: 'Hammersmith One', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .header-eng {
+    color: #FFF;
+text-align: center;
+font-family: 'Hammersmith One', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+/*! Main-page */
+.page {
+  background-image: url('../img/page_background_avatar.png');
+  width: 1513px;
+  height: 740px;
+  flex-shrink: 0;
+}
+/*! Hero */
+.hero-home-list {
+  padding: 196px 0px 0px 204px;
+}
+.hero-home_arrow_left {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.hero-home-text-navi {
+  width: 376px;
+  height: 123px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-home-text-ua {
+  width: 298px;
+height: 96px;
+flex-shrink: 0;
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-home-button-clan {
+  margin-top: 95px;
+  padding: 10px 31px 10px 31px;
+  width: 260px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background: #0B0E66;
+}
+.hero-home-clan {
+width: 199px;
+color: #26C7EA;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-home-wiosca-clan {
+ margin-left: 58px;
+}
+
+.hero-home-networks {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: center;
+  padding: 0px 204px 0px 1206px;
+}
+
+/*! advantages-home */
+.page-home-advantages{
+width: 1513px;
+height: 280px;
+flex-shrink: 0;
+background: #FFF;
+}
+
+.advantages-home-title1 {
+  margin-bottom: 4px;
+  margin-top: 75px;
+  color: #0A3853;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.advantages-home-title2 {
+  margin-bottom: 16px;
+  color: #0A3853;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.advantages-home-text {
+  margin-bottom: 8px;
+  color: #000;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.advantages-home-orel-arrow {
+  align-items: center;
+margin-right: 520px;
+margin-left: 520px;
+margin-bottom: 10px;
+}
+/*! overlord-home */
+.page-home-overlord {
+  background-image: url('../img/avatar-trailer.png');
+  width: 1513px;
+height: 741px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.overlord-home-trailer-button {
+  width: 260px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 45px 0px;
+  border: 3px solid #26C7EA;
+  background: #0B0E66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlord-home-look-trailer {
+  color: #26C7EA;
+text-align: justify;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/*! Hydra */
+.page-home-hydra {
+  background-image: url('../img/language_navi_hydra.png');
+  width: 1513px;
+height: 704px;
+flex-shrink: 0;
+}
+.hydra-home-title {
+  color: #141414;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hydra-home-list {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hydra-home-item {
+  flex: 0 1 calc((100% - 25px * 2) / 3);
+  width: 320px;
+  height: 240px;
+  flex-shrink: 0;
+background: rgba(255, 255, 255, 0.70);
+}
+.hydra-home-text-ua {
+ margin-top: 36px;
+color: #141414;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.hydra-home-photo {
+margin: 40px 159px;
+  justify-content: center;
+  width: 152px;
+height: 40px;
+flex-shrink: 0;
+}
+
+.hydra-home-text-eng {
+  margin-bottom: 36px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*! FOOTER */
+footer {
+  background-color: #000;
+  width: 350px;
+  height: 200px;
+}
